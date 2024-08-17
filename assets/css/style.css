@@ -1,0 +1,87 @@
+body {
+    background: #111111;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-panel {
+    width: 25rem;
+    height: calc(100% - 4rem);
+    background: #1e1e1f;
+    position: fixed;
+    left: 0;
+    top: 2rem;
+    border-radius: 0 5rem 5rem 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    outline: 0.0001rem solid white;
+}
+
+img.image-container {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+button.position {
+    background: white;
+    width: 14rem;
+    color: #333;
+    border: 0.125rem solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button.position:hover {
+    background: #f0f0f0;
+    border-color: #bbb;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.strikethrough {
+    width: 22.5rem;
+    height: 0.005rem;
+    background-color: white;
+    margin: 1rem 1rem;
+}
+
+.right-panel {
+    width: 92.5rem;
+    height: 100%;
+    background: #1e1e1f;
+    position: fixed;
+    left: 28rem;
+    top: 2rem;
+    border-radius: 5rem 0 0 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    outline: 0.0001rem solid white;
+    overflow-y: scroll;
+
+    word-wrap: break-word;
+}
+
+.text {
+    font-size: 1rem;
+    line-height: 5;
+    padding: 1rem;
+}
+
+/* Colors (I need to find more tbh)
+    medium-gray: #1e1e1f
+    lighter-gray: ##4f4f4f
+*/
